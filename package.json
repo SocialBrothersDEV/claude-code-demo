@@ -9,11 +9,12 @@
     "generate:types": "payload generate:types"
   },
   "dependencies": {
-    "@payloadcms/db-sqlite": "^3.83.0",
+    "@payloadcms/db-postgres": "^3.83.0",
     "@payloadcms/next": "^3.83.0",
     "@payloadcms/richtext-lexical": "^3.83.0",
     "next": "^15.5.15",
     "payload": "^3.83.0",
+    "pg": "^8.20.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "sharp": "^0.34.5"
